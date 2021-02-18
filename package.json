@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Sergio401.github.io/Avocados",
+  "homepage": "https://sergio401.github.io/Avocados/",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
