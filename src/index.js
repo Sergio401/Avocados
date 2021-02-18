@@ -7,12 +7,10 @@ const baseUrl = "https://platzi-avo.vercel.app"
 const appNode = document.querySelector('#container')
 
 const formatPrice = price => {
-    const newPrice = window.Intl.NumberFormat("en-EN", {
+    return window.Intl.NumberFormat("en-EN", {
         style: "currency",
         currency: "USD"
     }).format(price);
-
-    return newPrice;
 }
 
 !(async function(){
